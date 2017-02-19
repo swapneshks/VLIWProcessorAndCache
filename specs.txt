@@ -1,5 +1,20 @@
+Processor
+---------
+
+Instructions:
+
+Load   - LDRH (Load Register Halfword)
+Store  - STRH (Store Register Halfword)
+Add    - ADC (Add with Carry)
+Sub    - SUB (Subtract Immediate)
+Shift  - LSL (Left Shift Logical)
+Jump   - BL (Branch with Link)
+Rotata - ROR (Rotate Right)
+Branch - B 
+
 
 Memory
+------
 
 Specifications
 
