@@ -1,0 +1,45 @@
+
+Memory
+
+Specifications
+
+Cache Size 		512B
+Cache
+Line Size    		16B
+
+Associativity	   	2
+
+Write Policy 	   	Write Through
+
+Replacement Policy 	FIFO
+
+Cache Type 	   	Way Halting
+
+
+
+
+#Offset bits = 4 bits
+
+#Index bits  = 4 bits
+
+#Tag bits    = 24 bits
+
+
+
+Total Cache Size =  DataArraySize + Main Tag Array Size + Halt Tag Array Size + Valid array Size
+
+	         =  512B + (24*2*16)/8 + (4*2*16)/8 + (1*2*16)/8	
+
+		 =  628B
+
+
+
+#Read misses = 3
+
+#Read hits = 2
+
+#Write misses = 1
+
+#Write hits =  1
+
+
